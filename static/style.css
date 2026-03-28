@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f6f8fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Card */
+.card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    width: 420px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+/* Inputs */
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 13px;
+    outline: none;
+    transition: all 0.2s ease;
+    background: #fafbff;
+}
+
+input:focus {
+    border-color: #6c8cff;
+    box-shadow: 0 0 0 2px rgba(108, 140, 255, 0.15);
+}
+
+/* Button */
+button {
+    margin-top: 20px;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #6c8cff, #5a76e0);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 15px rgba(108, 140, 255, 0.3);
+}
+
+/* Result */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Result colors */
+.success {
+    color: #2ecc71;
+}
+
+.danger {
+    color: #e74c3c;
+}
+
+/* Scrollbar (modern look) */
+.grid::-webkit-scrollbar {
+    width: 6px;
+}
+
+.grid::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+}
