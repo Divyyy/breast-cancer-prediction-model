@@ -51,10 +51,19 @@ mainmodel.ipynb
 
 ## 📈 Results
 
-- Accuracy: ~98%
-- High precision and recall for both classes
+- Accuracy: 98%
 
----
+### Classification Report
+
+| Class | Precision | Recall | F1-Score |
+|------|----------|--------|---------|
+| Benign (0) | 0.99 | 0.98 | 0.99 |
+| Malignant (1) | 0.97 | 0.98 | 0.98 |
+
+### Overall Metrics
+
+- **Macro Avg** → Precision: 0.98 | Recall: 0.98 | F1-score: 0.98  
+- **Weighted Avg** → Precision: 0.98 | Recall: 0.98 | F1-score: 0.98  
 
 ## 🧠 Key Learnings
 
