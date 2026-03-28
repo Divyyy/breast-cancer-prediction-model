@@ -1,0 +1,67 @@
+# 🧠 Breast Cancer Prediction (Machine Learning)
+
+This project focuses on building a **Machine Learning model** to predict whether a tumor is **Benign (non-cancerous)** or **Malignant (cancerous)** using Logistic Regression.
+
+The main work is implemented in a Jupyter Notebook, covering the complete ML workflow from data analysis to model evaluation.
+
+---
+
+## 🎯 Objective
+
+To develop a binary classification model that can accurately predict breast cancer diagnosis based on medical features.
+
+---
+
+## 📊 Dataset
+
+- Breast Cancer Wisconsin Dataset  
+- 30 numerical features derived from cell nuclei  
+- Target variable:
+  - 0 → Benign  
+  - 1 → Malignant  
+
+---
+
+## 📓 Main Implementation
+
+All core work is done in:
+mainmodel.ipynb
+
+
+### It includes:
+
+- Data Loading & Exploration
+- Handling missing values
+- Feature analysis
+- Data visualization (heatmaps, correlations)
+- Train-test split
+- Model training (Logistic Regression)
+- Model evaluation:
+  - Accuracy
+  - Confusion Matrix
+  - Classification Report
+
+---
+
+## ⚙️ Model Used
+
+- Logistic Regression (scikit-learn)
+
+---
+
+## 📈 Results
+
+- Accuracy: ~98%
+- High precision and recall for both classes
+
+---
+
+## 🧠 Key Learnings
+
+- End-to-end ML workflow
+- Data preprocessing techniques
+- Model evaluation metrics
+- Importance of feature scaling
+- Handling real-world datasets
+
+
